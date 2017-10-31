@@ -1,0 +1,30 @@
+<div class="cs-circle">
+    <div class="cs-dashboard-score__crop">
+        <div class="cs-dashboard-score__slide">
+            <div class="cs-circle-score-panel" ng-switch-when="scorePanel" no-file="!userIdvStatusIsPass" score="score">
+
+                <svg id="donut-gauge-menu" width="100%" height="100%" perserveAspectRatio="xMinYMid">
+                    <g transform="translate(140,130) scale(-1, 1) rotate(200)">
+                        <path class="foreground-background" fill="none" stroke="#76e8a9" stroke-width="5" [attr.d]="d"></path>
+                    </g>
+                </svg>
+
+                <div class="cs-circle-score-panel__info">
+                    Your credit score is
+                </div>
+                <div class="cs-circle-score-panel__number">
+                    {{ score.score }}
+                    <span aria-hidden="false" class="cs-circle-score-panel__summary" ng-hide="score.score !== '?' && score.score >= score.maxScoreValue">
+                        out of
+                        <strong>
+                            {{ score.maxScoreValue }}
+                        </strong>
+                    </span>
+                </div>
+                <div class="cs-circle-score-panel__message">
+                    Looking bright
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

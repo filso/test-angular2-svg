@@ -1,6 +1,8 @@
 # TestAngular2Svg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.6.
+I used present code for SVG. I prefer to take something working when possible and use saved time to improve it, rather than reinvent the wheel.
+
+I chose Angular 2 because I'm still new to it. Generator scaffolds with Webpack and tests. I know Angular 1.x inside out, having worked with it since early beta versions.
 
 ## Development server
 
@@ -21,7 +23,3 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
