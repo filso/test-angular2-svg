@@ -1,8 +1,6 @@
 # TestAngular2Svg
 
-I used present code for SVG. I prefer to take something working when possible and use saved time to improve it, rather than reinvent the wheel.
-
-I chose Angular 2 because I'm still new to it. Generator scaffolds with Webpack and tests. I know Angular 1.x inside out, having worked with it since early beta versions.
+I chose Angular 2 because I'm still new to it. Generator scaffolds with Webpack and tests.
 
 ## Development server
 
